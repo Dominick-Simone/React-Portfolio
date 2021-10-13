@@ -1,27 +1,31 @@
 import React, { useState } from 'react';
-const Navbar = ({ currentPage, handlePageChange }) => {
+const Navbar = ({ handlePageChange }) => {
 
   return (
     <ul>
-      <li style={navigationStyles}><a href="#Home"
-        onClick={() => handlePageChange('Home')}>Home</a></li>
-      <li style={navigationStyles}> <a href="#Home"
-        onClick={() => handlePageChange('Home')}>My Work</a></li>
-      <li style={navigationStyles}><a href="#About"
-        onClick={() => handlePageChange('About')}>About Me</a></li>
-      <li style={navigationStyles}> <a href="#Contact"
-        onClick={() => handlePageChange('Contact')}>Contact Me</a></li>
+      <a style={linkStyles} href="#Home"
+        onClick={() => handlePageChange('Home')}><li style={navigationStyles}>Work</li></a>
+      <a style={linkStyles} href="#About"
+        onClick={() => handlePageChange('About')}><li style={navigationStyles}>About Me</li></a>
+      <a style={linkStyles} href="#Contact"
+        onClick={() => handlePageChange('Contact')}><li style={navigationStyles}> Contact</li></a>
+      <a href="/images/Resume.pdf" target="blank" style={linkStyles}><li style={navigationStyles}>Resume</li></a>
     </ul>
   )
 }
 const navigationStyles = {
   display: "inline-block",
-  padding: "8px",
+  padding: "6px",
   margin: "5px",
   border: "2px solid #001f3f",
   backgroundColor: "#001f3f",
   borderRadius: "10%",
   color: "steelblue",
-  fontWeight: "bold"
+  fontWeight: "900",
+  fontSize: "large"
+}
+const linkStyles = {
+  textDecoration: "none",
+  color: "steelblue"
 }
 export default Navbar
