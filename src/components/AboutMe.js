@@ -36,14 +36,14 @@ const AboutMe = () => {
         </div>
     )
 }
-
+// needs media query to switch to column instead of row once i figure out how to use the css file with react
 const about = {
     display: "flex",
     backgroundColor: "#001f3f",
     flexDirection: "row",
     justifyContent: "center",
     paddingTop: "25px",
-    width: "50%"
+    width: "clamp(100px, 50%, 50%)"
 }
 const aboutTitle = {
     textAlign: "center",

@@ -38,12 +38,13 @@ const Projects = () => {
 }
 const projectDiv = {
     height: "40%",
-    width: "40%",
+    width: "clamp(275px, 40%, 40%)",
     margin: "4.5%",
 }
 const project = {
     display: "flex",
     backgroundColor: "#001f3f",
+    justifyContent: "center",
     flexDirection: "row",
     flexWrap: "wrap"
 }
