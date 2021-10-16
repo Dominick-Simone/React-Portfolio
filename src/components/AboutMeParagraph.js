@@ -18,18 +18,16 @@ const aboutParaText = {
     textAlign: "center",
 }
 const aboutParaDiv = {
-    marginLeft: "auto",
-    marginRight: "auto",
-    width: "clamp(350px, 50%, 50%)",
+    margin: "0 auto",
+    width: "clamp(300px, 50%, 50%)",
     paddingTop: "50px",
     paddingBottom: "20px",
     display: "flex",
     justifyContent: "center",
 }
-// needs media query to remove on small devices once i figure out how to use the css file with react
 const aboutParaImg = {
     width: "200px",
-    height: "275px",
+    height: "250px",
     paddingRight: "5px"
 }
 export default AboutMeParagraph

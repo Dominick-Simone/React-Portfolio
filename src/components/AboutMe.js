@@ -11,6 +11,7 @@ const AboutMe = () => {
                         <h2 style={aboutText}>MySQL</h2>
                         <h2 style={aboutText}>MongoDB</h2>
                         <h2 style={aboutText}>IndexedDB</h2>
+                        <h2 style={aboutText}>Spring Boot</h2>
                     </div>
                 </div>
                 <div style={aboutBorder}>
@@ -19,6 +20,7 @@ const AboutMe = () => {
                         <h2 style={aboutText}>HTML</h2>
                         <h2 style={aboutText}>CSS</h2>
                         <h2 style={aboutText}>JavaScript</h2>
+                        <h2 style={aboutText}>Java</h2>
                     </div>
                 </div>
                 <div style={aboutBorder}>
