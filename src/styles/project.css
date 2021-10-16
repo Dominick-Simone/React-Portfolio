@@ -1,0 +1,47 @@
+.projectDiv {
+  height: 40%;
+  width: 40%;
+  margin: 4.5%;
+}
+
+.project {
+  display: flex;
+  background-color: #001f3f;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.projectTitle {
+  color: steelblue;
+}
+
+.projectText {
+  color: steelblue;
+}
+
+.projectImage {
+  width: 100%;
+  color: steelblue;
+}
+
+.linkStyles {
+  text-decoration: none;
+  color: steelblue
+}
+/* add media query to set flexDirection column on medium devices to remove white-space at the bottom */
+
+@media only screen and (max-width: 800px) {
+  .project {
+    display: flex;
+    background-color: #001f3f;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap
+  }
+  .projectDiv {
+    height: 30%;
+    width: 77%;
+    margin: 4.5%;
+  }
+}

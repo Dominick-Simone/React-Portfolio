@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Header from "../Header"
 import ContactForm from "../ContactForm"
 import Footer from "../Footer"
+import "../../App.css"
+
 
 const Contact = () => {
     return (

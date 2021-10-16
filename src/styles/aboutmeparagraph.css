@@ -1,0 +1,25 @@
+.aboutParaComponent {
+    background-color: #001f3f;
+}
+.aboutParaText {
+    color: steelblue;
+    text-align: center;
+}
+.aboutParaDiv {
+    margin: 0 auto;
+    width: clamp(300px, 50%, 50%);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.aboutParaImg {
+    width: 200px;
+    height: 250px;
+    padding-right: 5px;
+}
+@media only screen and (max-width: 800px) {
+    .aboutParaImg {
+        display: none;
+    }
+  }

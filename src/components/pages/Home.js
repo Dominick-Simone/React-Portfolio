@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Header from "../Header"
 import Projects from "../Projects"
 import Footer from "../Footer"
+import "../../App.css"
+
 const Work = () => {
     return (
         <>
