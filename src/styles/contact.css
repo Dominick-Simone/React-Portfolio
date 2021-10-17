@@ -1,0 +1,15 @@
+form {
+    height: 90vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 20vh;
+}
+.formComponent {
+    background-color: #001f3f;
+}
+
+.formText {
+    margin-right: 10px;
+    color: steelblue;
+    font-weight: 900;
+}

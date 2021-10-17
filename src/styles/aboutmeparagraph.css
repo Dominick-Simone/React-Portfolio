@@ -14,9 +14,14 @@
     justify-content: center;
 }
 .aboutParaImg {
+    justify-self: center;
     width: 200px;
     height: 250px;
     padding-right: 5px;
+}
+.aboutParaImgDiv {
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (max-width: 800px) {
     .aboutParaImg {

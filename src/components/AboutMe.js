@@ -1,4 +1,5 @@
 import "../styles/aboutme.css"
+import AboutAnimation from './AboutAnimation'
 
 const AboutMe = () => {
     return (
