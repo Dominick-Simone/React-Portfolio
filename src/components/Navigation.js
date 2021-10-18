@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/navigation.css"
+import Resume from "../images/Resume.pdf"
 const Navbar = ({ handlePageChange }) => {
 
   return (
@@ -10,7 +11,7 @@ const Navbar = ({ handlePageChange }) => {
         onClick={() => handlePageChange('About')}><li className="navigationStyles">About Me</li></a>
       <a className="linkStyles" href="#Contact"
         onClick={() => handlePageChange('Contact')}><li className="navigationStyles"> Contact</li></a>
-      <a href="/images/Resume.pdf" target="blank" className="linkStyles"><li className="navigationStyles">Resume</li></a>
+      <a href={Resume} target="_blank" className="linkStyles"><li className="navigationStyles">Resume</li></a>
     </ul>
   )
 }
