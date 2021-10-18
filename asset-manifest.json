@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.e3a21142.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.22f45708.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.22f45708.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.271fab69.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.5d7734d5.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.5d7734d5.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.c2e77b81.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.c2e77b81.js.map",
     "static/js/2.204ecb66.chunk.js": "/React-Portfolio/static/js/2.204ecb66.chunk.js",
     "static/js/2.204ecb66.chunk.js.map": "/React-Portfolio/static/js/2.204ecb66.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.e3a21142.chunk.css.map": "/React-Portfolio/static/css/main.e3a21142.chunk.css.map",
+    "static/css/main.271fab69.chunk.css.map": "/React-Portfolio/static/css/main.271fab69.chunk.css.map",
     "static/js/2.204ecb66.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.204ecb66.chunk.js.LICENSE.txt",
     "static/media/NFL-Bets.e7ada6eb.png": "/React-Portfolio/static/media/NFL-Bets.e7ada6eb.png",
     "static/media/Note-Taker.6e417fc5.png": "/React-Portfolio/static/media/Note-Taker.6e417fc5.png",
     "static/media/Password-Generator.51520f92.png": "/React-Portfolio/static/media/Password-Generator.51520f92.png",
+    "static/media/Resume.48925968.pdf": "/React-Portfolio/static/media/Resume.48925968.pdf",
     "static/media/Weather-App.31a816c4.png": "/React-Portfolio/static/media/Weather-App.31a816c4.png",
     "static/media/image0.961a7414.jpg": "/React-Portfolio/static/media/image0.961a7414.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2e77b81.js",
     "static/js/2.204ecb66.chunk.js",
-    "static/css/main.e3a21142.chunk.css",
-    "static/js/main.22f45708.chunk.js"
+    "static/css/main.271fab69.chunk.css",
+    "static/js/main.5d7734d5.chunk.js"
   ]
 }
