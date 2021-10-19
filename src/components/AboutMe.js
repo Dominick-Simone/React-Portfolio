@@ -10,10 +10,10 @@ const AboutMe = () => {
                         <h2 className="aboutText">ReactJS</h2>
                         <h2 className="aboutText">NodeJS</h2>
                         <h2 className="aboutText">ExpressJS</h2>
+                        <h2 className="aboutText">Jest</h2>
                         <h2 className="aboutText">MySQL</h2>
                         <h2 className="aboutText">MongoDB</h2>
                         <h2 className="aboutText">IndexedDB</h2>
-                        <h2 className="aboutText">Spring Boot</h2>
                     </div>
                 </div>
                 <div className="aboutBorder">
@@ -22,7 +22,6 @@ const AboutMe = () => {
                         <h2 className="aboutText">HTML</h2>
                         <h2 className="aboutText">CSS</h2>
                         <h2 className="aboutText">JavaScript</h2>
-                        <h2 className="aboutText">Java</h2>
                     </div>
                 </div>
                 <div className="aboutBorder">
