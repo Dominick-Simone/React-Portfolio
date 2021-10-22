@@ -1,15 +1,73 @@
-form {
-    height: 90vh;
-    width: 100vw;
-    text-align: center;
-    padding-top: 20vh;
+.contactOuterDiv {
+    margin: 5vh 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactDiv {
+    margin: auto;
+}
+.contactText {
+    color: steelblue;
+    margin-bottom: 1em;
 }
 .formComponent {
-    background-color: #001f3f;
+    margin: auto;
 }
-
 .formText {
-    margin-right: 10px;
     color: steelblue;
     font-weight: 900;
+}
+label {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+.submitBtn {
+    margin-top: 1em;
+    background-color: steelblue;
+    color:white;
+    border: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.formInput {
+    height: 2em;
+    width: 50vw;
+}
+textarea {
+    height: 8em;
+    width: 50vw;
+}
+@media (min-width: 60em) {
+    .contactOuterDiv {
+        margin: 15vh 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .contactOuterDiv > * {
+        flex-basis: 70%;
+    }
+    .formComponent {
+        margin-right: 15vw;
+    }
+    .contactDiv {
+        margin-left: 15vw;
+    }
+    .formInput {
+        height: 2em;
+        width: 30vw;
+    }
+    textarea {
+        height: 8em;
+        width: 30vw;
+    }
+    .topLabel {
+        margin-top: 0;
+    }
+}
+@media (min-width: 60em) {
+    footer {
+        margin-top: 29vh;
+    }
 }
