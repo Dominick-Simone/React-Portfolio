@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
             <div className="projectDiv">
                 <h1 className="projectTitle">Password Generator</h1>
-                <h2 className="projectTitle"><a href="https://github.com/Dominick-Simone/h3asswordGen" className="linkStyles" target="_blank">Github</a></h2>
+                <h2 className="projectTitle"><a href="https://github.com/Dominick-Simone/PasswordGen" className="linkStyles" target="_blank">Github</a></h2>
                 <a href="https://dominick-simone.github.io/PasswordGen/" target="_blank">
                     <img className="projectImage" src={passwordGeneratorIMG} alt="Password Generator" />
                 </a>
