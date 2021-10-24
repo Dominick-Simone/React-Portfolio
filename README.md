@@ -1,7 +1,15 @@
 # React Portfolio
 
+## Table of Contents
+* [Description](##Description)
+* [License](##License)
+* [Contact](##Contact)
+
 ## Description
 This is my ReactJS Portfolio that shows my accomplishments as a programmer. It includes projects I've completed, a section about me as a developer, and links to my LinkedIn, Github, and my Resume. It also shows all of the different technologies, programming languages, and tools that I have learned while developing.
+
+## Deployed App
+https://Dominick-Simone.github.io/React-Portfolio
 
 ## MIT License
 
@@ -13,5 +21,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-##Contact Me 
+## Contact
 * Email: domsimone123@gmail.com
+* Github: https://github.com/Dominick-Simone
