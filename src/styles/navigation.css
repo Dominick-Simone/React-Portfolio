@@ -9,6 +9,17 @@
     font-weight: 900;
     font-size: large;
   }
+  .navigationStylesActive {
+    display: inline-block;
+    padding: 6px;
+    margin: 5px;
+    border: 2px solid #001f3f;
+    background-color: #001f3f;
+    border-radius: 10%;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+  }
 .linkStyles {
     text-decoration: none;
     color: steelblue;
