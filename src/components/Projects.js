@@ -1,11 +1,19 @@
 import nflBetsIMG from '../images/NFL-Bets.png'
 import weatherAppIMG from "../images/Weather-App.png"
 import noteTakerIMG from "../images/Note-Taker.png"
-import passwordGeneratorIMG from "../images/Password-Generator.png"
+import socializeIMG from "../images/Socialize.png"
 import "../styles/project.css"
 const Projects = () => {
     return (
         <div className="project">
+            <div className="projectDiv">
+                <h1 className="projectTitle">Soclialize</h1>
+                <h2 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h2>
+                <a href="https://boiling-caverns-77911.herokuapp.com/" target="_blank">
+                    <img className="projectImage" src={socializeIMG} alt="Password Generator" />
+                </a>
+                <h3 className="projectText">This was my final project in my coding bootcamp that I decided to do solo instead of with a group. It is a social media app that uses ReactJS, GraphQL, NodeJS, ExpressJS, and MySQL with Sequelize. It allows users to login or create an account with JWT authentication. Then you can create posts, like other users posts, and follow other users through the discover page to see their posts in your home page feed. You must create an account, or login to see full functionality.</h3>
+            </div>
             <div className="projectDiv">
                 <h1 className="projectTitle">NFL Bets</h1>
                 <h2 className="projectTitle"><a href="https://github.com/Dominick-Simone/NFL_Bets" className="linkStyles" target="_blank">Github</a></h2>
@@ -29,14 +37,6 @@ const Projects = () => {
                     <img src={noteTakerIMG} className="projectImage" alt="NFL Bets" />
                 </a>
                 <h3 className="projectText">This application allows users to create notes that will be saved to a json file instead of a database. It also allows user to delete previous notes and will update the json file with the new list of notes after each note is deleted.</h3>
-            </div>
-            <div className="projectDiv">
-                <h1 className="projectTitle">Password Generator</h1>
-                <h2 className="projectTitle"><a href="https://github.com/Dominick-Simone/PasswordGen" className="linkStyles" target="_blank">Github</a></h2>
-                <a href="https://dominick-simone.github.io/PasswordGen/" target="_blank">
-                    <img className="projectImage" src={passwordGeneratorIMG} alt="Password Generator" />
-                </a>
-                <h3 className="projectText">This application prompts users asking which types of characters they would like the password to contain, as well as the length they would like to have their password. After the user chooses their options the password is generated into the text box in the middle of the page.</h3>
             </div>
         </div>
     )

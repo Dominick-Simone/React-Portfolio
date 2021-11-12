@@ -8,7 +8,9 @@ const AboutMe = () => {
                     <h1 className="aboutTitle">Technologies</h1>
                     <div className="aboutTextDiv">
                         <h2 className="aboutText">ReactJS</h2>
+                        <h2 className="aboutText">Redux</h2>
                         <h2 className="aboutText">NodeJS</h2>
+                        <h2 className="aboutText">GraphQL</h2>
                         <h2 className="aboutText">ExpressJS</h2>
                         <h2 className="aboutText">Jest</h2>
                         <h2 className="aboutText">MySQL</h2>
