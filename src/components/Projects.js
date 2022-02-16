@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="project">
             <div className="projectDiv">
                 <div class="projectLinks">
-                    <h3 className="projectTitle projectLinks"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
+                    <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
                     <h1 className="projectTitle">Socialize</h1>
                     <h3 className="projectTitle"><a href="https://boiling-caverns-77911.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
@@ -19,7 +19,7 @@ const Projects = () => {
                     <img className="projectImage" src={socializeIMG} alt="Password Generator" />
                 </a>
                 <div className="projectMobile">
-                    <h3 className="projectTitle projectLinks"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
+                    <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
                     <h3 className="projectTitle"><a href="https://boiling-caverns-77911.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
                 <h3 className="projectText">This was my final project in my coding bootcamp that I decided to do solo instead of with a group. It is a social media app that uses ReactJS, GraphQL, NodeJS, ExpressJS, and MySQL with Sequelize. It allows users to login or create an account with JWT authentication. Then you can create posts, like other users posts, and follow other users through the discover page to see their posts in your home page feed. You must create an account, or login to see full functionality.</h3>
