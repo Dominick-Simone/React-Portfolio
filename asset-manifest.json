@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4758a6ea.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.831ca81b.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.831ca81b.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.e3835932.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.94fc5622.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.94fc5622.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.c2e77b81.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.c2e77b81.js.map",
     "static/js/2.618c3638.chunk.js": "/React-Portfolio/static/js/2.618c3638.chunk.js",
     "static/js/2.618c3638.chunk.js.map": "/React-Portfolio/static/js/2.618c3638.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.4758a6ea.chunk.css.map": "/React-Portfolio/static/css/main.4758a6ea.chunk.css.map",
+    "static/css/main.e3835932.chunk.css.map": "/React-Portfolio/static/css/main.e3835932.chunk.css.map",
     "static/js/2.618c3638.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.618c3638.chunk.js.LICENSE.txt",
     "static/media/NFL-Bets.e7ada6eb.png": "/React-Portfolio/static/media/NFL-Bets.e7ada6eb.png",
     "static/media/Note-Taker.6e417fc5.png": "/React-Portfolio/static/media/Note-Taker.6e417fc5.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.c2e77b81.js",
     "static/js/2.618c3638.chunk.js",
-    "static/css/main.4758a6ea.chunk.css",
-    "static/js/main.831ca81b.chunk.js"
+    "static/css/main.e3835932.chunk.css",
+    "static/js/main.94fc5622.chunk.js"
   ]
 }
