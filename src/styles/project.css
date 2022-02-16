@@ -44,7 +44,9 @@
   text-decoration: none;
   color: white;
 }
-
+.projectMobile {
+  display: none;
+}
 @media only screen and (max-width: 800px) {
   .project {
     display: flex;
@@ -57,6 +59,16 @@
     height: 30%;
     width: 77%;
     margin: 4.5%;
+  }
+  .projectLinks {
+    display: none;
+  }
+  .projectMobile {
+    display: block;
+  }
+  .projectTitle {
+    color: white;
+    text-align: center;
   }
 }
 
