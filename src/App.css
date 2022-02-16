@@ -5,3 +5,7 @@
 body {
   background-color: #181a1f;
 }
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
