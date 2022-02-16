@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className="project">
             <div className="projectDiv">
-                <h1 className="projectTitle">Soclialize</h1>
+                <h1 className="projectTitle">Socialize</h1>
                 <h2 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h2>
                 <a href="https://boiling-caverns-77911.herokuapp.com/" target="_blank">
                     <img className="projectImage" src={socializeIMG} alt="Password Generator" />
