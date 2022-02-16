@@ -1,23 +1,32 @@
 .projectDiv {
   height: 40%;
   width: 40%;
-  margin: 4.5%;
+  margin: 2.5%;
+  border: 2px solid grey;
+  padding: 2%;
+
+}
+.projectDiv .projectText {
+  padding-top: 2%;
+  color: white;
+  display: none;
+}
+
+.projectDiv:hover .projectText {
+  color: white;
+  display: block;
 }
 
 .project {
   display: flex;
-  background-color: #001f3f;
+  background-color: #181a1f;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap
 }
 
 .projectTitle {
-  color: steelblue;
-}
-
-.projectText {
-  color: steelblue;
+  color: white;;
 }
 
 .projectImage {
@@ -26,13 +35,13 @@
 
 .linkStyles {
   text-decoration: none;
-  color: steelblue
+  color: white;
 }
 
 @media only screen and (max-width: 800px) {
   .project {
     display: flex;
-    background-color: #001f3f;
+    background-color: #181a1f;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap
@@ -45,15 +54,25 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .projectImage {
+  .projectDiv .projectImage {
     width: 100%;
-    color: steelblue;
+    color: white;;
     opacity:0.6;
-    transition: 1s ease;
+    transition: .5s ease;
   }
     
-  .projectImage:hover{
+  .projectDiv:hover .projectImage{
     opacity:1;
-    transition: 1s ease;
+    transition: .5s ease;
+  }
+
+  .projectDiv .projectText {
+    padding-top: 2%;
+    color: white;
+  }
+  
+  .projectDiv:hover .projectText {
+    color: white;
+    padding-top: 2%;
   }
 }

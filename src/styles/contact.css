@@ -1,20 +1,29 @@
-.contactOuterDiv {
+/* .contactOuterDiv {
     margin: 5vh 0;
     display: flex;
     flex-direction: column;
-}
+    background-color: #181a1f;
+} */
 .contactDiv {
     margin: auto;
+    text-align: center;
+}
+.contactTitle {
+    color: white;
+    margin: 10vh 0;
 }
 .contactText {
-    color: steelblue;
-    margin-bottom: 1em;
+    color: white;
+    margin-bottom: 3em;
 }
 .formComponent {
     margin: auto;
 }
-.formText {
-    color: steelblue;
+.contactBottom {
+    margin-bottom: 40vh
+}
+/* .formText {
+    color: white;
     font-weight: 900;
 }
 label {
@@ -24,12 +33,13 @@ label {
 }
 .submitBtn {
     margin-top: 1em;
-    background-color: steelblue;
+    background-color: black;
     color:white;
     border: none;
     padding: 10px 10px;
     text-decoration: none;
     font-size: 16px;
+    font-weight: 700;
 }
 .formInput {
     height: 2em;
@@ -38,23 +48,22 @@ label {
 textarea {
     height: 8em;
     width: 50vw;
-}
+} */
 @media (min-width: 60em) {
-    .contactOuterDiv {
+    /* .contactOuterDiv {
         margin: 15vh 0;
         display: flex;
         flex-direction: row;
-    }
-    .contactOuterDiv > * {
+    } */
+    /* .contactOuterDiv > * {
         flex-basis: 70%;
-    }
-    .formComponent {
+    } */
+    /* .formComponent {
         margin-right: 15vw;
-    }
+    } */
     .contactDiv {
-        margin-left: 15vw;
     }
-    .formInput {
+    /* .formInput {
         height: 2em;
         width: 30vw;
     }
@@ -64,10 +73,6 @@ textarea {
     }
     .topLabel {
         margin-top: 0;
-    }
+    } */
 }
-@media (min-width: 60em) {
-    footer {
-        margin-top: 29vh;
-    }
-}
+

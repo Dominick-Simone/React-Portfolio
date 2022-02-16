@@ -2,10 +2,10 @@
     display: inline-block;
     padding: 6px;
     margin: 5px;
-    border: 2px solid #001f3f;
-    background-color: #001f3f;
+    border: 2px solid #25272e;
+    background-color: #25272e;
     border-radius: 10%;
-    color: steelblue;
+    color: white;
     font-weight: 900;
     font-size: large;
   }
@@ -13,8 +13,8 @@
     display: inline-block;
     padding: 6px;
     margin: 5px;
-    border: 2px solid #001f3f;
-    background-color: #001f3f;
+    border: 2px solid #25272e;
+    background-color: #25272e;
     border-radius: 10%;
     color: white;
     font-weight: 900;
@@ -22,5 +22,5 @@
   }
 .linkStyles {
     text-decoration: none;
-    color: steelblue;
+    color: white;
   }

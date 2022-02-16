@@ -1,9 +1,9 @@
 header {
   text-align: center;
-  background-color: steelblue;
+  background-color: #0f1114;
   height: 100px;
 }
-header title {
+header h1 {
   padding-top: 10px;
-  color: #001f3f;
+  color: white;
 }
