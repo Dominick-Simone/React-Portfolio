@@ -2,18 +2,18 @@
   height: 40%;
   width: 40%;
   margin: 3.5%;
-  border: 2px solid white;
+  background-color: white;
   border-radius: 25px;
   padding: 1%;
 
 }
 .projectDiv .projectText {
   padding-top: 2%;
-  color: white;
+  color: black;
 }
 
 .projectDiv:hover .projectText {
-  color: white;
+  color: black;
   display: block;
 }
 .projectLinks {
@@ -31,7 +31,7 @@
 }
 
 .projectTitle {
-  color: white;
+  color: black;
 }
 .inline {
   display: inline;
@@ -42,7 +42,7 @@
 
 .linkStyles {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .projectMobile {
   display: none;
@@ -67,7 +67,7 @@
     display: block;
   }
   .projectTitle {
-    color: white;
+    color: black;
     text-align: center;
   }
 }
@@ -75,7 +75,7 @@
 @media only screen and (min-width: 900px) {
   .projectDiv .projectImage {
     width: 100%;
-    color: white;;
+    color: black;
     opacity:0.6;
     transition: .5s ease;
   }
@@ -87,12 +87,12 @@
 
   .projectDiv .projectText {
     padding-top: 2%;
-    color: white;
+    color: black;
     display: none;
   }
   
   .projectDiv:hover .projectText {
-    color: white;
+    color: black;
     padding-top: 2%;
   }
 }
