@@ -1,6 +1,6 @@
 .projectDiv {
   height: 40%;
-  width: 40%;
+  width: 30%;
   margin: 3.5%;
   background-color: white;
   border-radius: 25px;
@@ -73,22 +73,11 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .projectDiv .projectImage {
-    width: 100%;
-    color: black;
-    opacity:0.6;
-    transition: .5s ease;
-  }
-    
-  .projectDiv:hover .projectImage{
-    opacity:1;
-    transition: .5s ease;
-  }
 
   .projectDiv .projectText {
     padding-top: 2%;
     color: black;
-    display: none;
+    /* display: none; */
   }
   
   .projectDiv:hover .projectText {

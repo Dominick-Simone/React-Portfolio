@@ -22,7 +22,7 @@ const Projects = () => {
                     <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
                     <h3 className="projectTitle"><a href="https://boiling-caverns-77911.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
-                <h3 className="projectText">This was my final project from my coding bootcamp. This was a solo project that I coded all parts of. It is a social media app that uses ReactJS, GraphQL, NodeJS, ExpressJS, and MySQL with Sequelize. It allows users to login or create an account with JWT authentication. Then you can create posts, like other users posts, and follow other users through the discover page to see their posts in your home page feed. You must create an account, or login to see full functionality.</h3>
+                <h3 className="projectText"> Socialize is a social media app that utilizes ReactJS, GraphQL, NodeJS, ExpressJS, and MySQL with Sequelize. It allows users to login or create an account with JWT authentication. Then you can create posts, like other users posts, comment on posts, and follow other users through the discover page to see their posts in your home page feed. You must create an account, or login to see full functionality.</h3>
             </div>
             <div className="projectDiv">
                 <div class="projectLinks">
@@ -34,12 +34,12 @@ const Projects = () => {
                     <h1 className="projectTitle">NFL Bets</h1>
                 </div>
 
-                <a href="https://vast-eyrie-51403.herokuapp.com/" target="_blank">
+                <a href="https://nfl-bets.herokuapp.com/" target="_blank">
                     <img src={nflBetsIMG} className="projectImage" alt="NFL Bets" />
                 </a>
                 <div className='projectMobile'>
                     <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/NFL_Bets" className="linkStyles" target="_blank">Github</a></h3>
-                    <h3 className="projectTitle"><a href="https://vast-eyrie-51403.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
+                    <h3 className="projectTitle"><a href="https://nfl-bets.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
                 <h3 className="projectText">This application uses an NFL API to get information about the NFL game schedule to allow users to choose to bet on whether a team will win or lose in the specified game. The user has to make an account, and then they can choose a favorite team and start betting. This application was created in NodeJS, it uses MySQL as the database, and ExpressJS for the server.</h3>
             </div>
