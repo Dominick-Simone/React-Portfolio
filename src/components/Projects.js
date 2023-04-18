@@ -10,17 +10,17 @@ const Projects = () => {
                 <div class="projectLinks">
                     <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
                     <h1 className="projectTitle">Socialize</h1>
-                    <h3 className="projectTitle"><a href="https://boiling-caverns-77911.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
+                    <h3 className="projectTitle"><a href="https://socialize.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
                 <div class="projectMobile">
                     <h1 className="projectTitle">Socialize</h1>
                 </div>
-                <a href="https://boiling-caverns-77911.herokuapp.com/" target="_blank">
+                <a href="https://socialize.herokuapp.com/" target="_blank">
                     <img className="projectImage" src={socializeIMG} alt="Password Generator" />
                 </a>
                 <div className="projectMobile">
                     <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/Socialize" className="linkStyles" target="_blank">Github</a></h3>
-                    <h3 className="projectTitle"><a href="https://boiling-caverns-77911.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
+                    <h3 className="projectTitle"><a href="https://socialize.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
                 <h3 className="projectText"> Socialize is a social media app that utilizes ReactJS, GraphQL, NodeJS, ExpressJS, and MySQL with Sequelize. It allows users to login or create an account with JWT authentication. Then you can create posts, like other users posts, comment on posts, and follow other users through the discover page to see their posts in your home page feed. You must create an account, or login to see full functionality.</h3>
             </div>
@@ -28,7 +28,7 @@ const Projects = () => {
                 <div class="projectLinks">
                     <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/NFL_Bets" className="linkStyles" target="_blank">Github</a></h3>
                     <h1 className="projectTitle">NFL Bets</h1>
-                    <h3 className="projectTitle"><a href="https://vast-eyrie-51403.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
+                    <h3 className="projectTitle"><a href="https://nfl-bets.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
                 <div className='projectMobile'>
                     <h1 className="projectTitle">NFL Bets</h1>
@@ -56,8 +56,8 @@ const Projects = () => {
                     <img src={weatherAppIMG} className="projectImage" alt="NFL Bets" />
                 </a>
                 <div className='projectMobile'>
-                    <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/NFL_Bets" className="linkStyles" target="_blank">Github</a></h3>
-                    <h3 className="projectTitle"><a href="https://vast-eyrie-51403.herokuapp.com/" className="linkStyles" target="_blank">Deployed</a></h3>
+                    <h3 className="projectTitle"><a href="https://github.com/Dominick-Simone/Weather-App" className="linkStyles" target="_blank">Github</a></h3>
+                    <h3 className="projectTitle"><a href="https://dominick-simone.github.io/Weather-App/" className="linkStyles" target="_blank">Deployed</a></h3>
                 </div>
                 <h3 className="projectText">This application uses a Weather API to generate the cities weather details, and five day forecast based on the city that the user searches.</h3>
             </div>
