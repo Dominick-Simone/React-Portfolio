@@ -4,7 +4,7 @@ import "../styles/aboutmeparagraph.css"
 import AboutAnimation from './AboutAnimation'
 const AboutMeParagraph = () => {
 
-    const text = "Hello, my name is Dominick Simone. I am a 20 year old Full Stack Developer from Lewisburg, PA. I graduated from the Full Stack Coding Bootcamp at the University of Pennsylvania on November 13th, 2021. I am currently working as a Senior Learning Assistant for Full Stack Development Bootcamps at edX. I am also looking for a full time software development positon!"
+    const text = "Hello, my name is Dominick Simone. I am a Full Stack Developer from Lewisburg, PA. I graduated from the Full Stack Coding Bootcamp at the University of Pennsylvania in 2021. I am currently working as a Senior Learning Assistant for Full Stack Development Bootcamps at 2U. I am also looking for a full time software development positon!"
 
 
     return (

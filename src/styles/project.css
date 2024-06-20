@@ -5,8 +5,8 @@
   background-color: white;
   border-radius: 25px;
   padding: 1%;
-
 }
+
 .projectDiv .projectText {
   padding-top: 2%;
   color: black;
@@ -16,26 +16,30 @@
   color: black;
   display: block;
 }
+
 .projectLinks {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 1%;
 }
+
 .project {
   display: flex;
   background-color: #181a1f;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .projectTitle {
   color: black;
 }
+
 .inline {
   display: inline;
 }
+
 .projectImage {
   width: 100%;
 }
@@ -44,28 +48,34 @@
   text-decoration: none;
   color: black;
 }
+
 .projectMobile {
   display: none;
 }
+
 @media only screen and (max-width: 800px) {
   .project {
     display: flex;
     background-color: #181a1f;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
+
   .projectDiv {
     height: 30%;
     width: 77%;
     margin: 4.5%;
   }
+
   .projectLinks {
     display: none;
   }
+
   .projectMobile {
     display: block;
   }
+
   .projectTitle {
     color: black;
     text-align: center;
@@ -73,13 +83,12 @@
 }
 
 @media only screen and (min-width: 900px) {
-
   .projectDiv .projectText {
     padding-top: 2%;
     color: black;
     /* display: none; */
   }
-  
+
   .projectDiv:hover .projectText {
     color: black;
     padding-top: 2%;
